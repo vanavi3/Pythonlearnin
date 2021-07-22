@@ -1,0 +1,130 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d2cbed81-03fe-4c7b-8cec-3de45c2f73da",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import os"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "fab63fd0-d412-4add-a5b8-de889141b219",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'C:\\\\Users\\\\ni468e'"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "os.getcwd()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "0893b3f2-4164-452b-aaac-66993f44b029",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['.bash_history', '.git', '.gitconfig', '.gitconfig.20210706130455.bak', '.idlerc', '.ipynb_checkpoints', '.ipython', '.jupyter', '.ssl', '3D Objects', 'AppData', 'Application Data', 'CArtS', 'CArtS-bak', 'Contacts', 'Cookies', 'Desktop', 'Documents', 'Downloads', 'Favorites', 'InstLogs', 'IntelGraphicsProfiles', 'IsoCArtS', 'Links', 'Local Settings', 'mcafee dlp quarantined files', 'MicrosoftEdgeBackups', 'Music', 'My Documents', 'NetHood', 'NTUSER.DAT', 'ntuser.dat.LOG1', 'ntuser.dat.LOG2', 'NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf', 'NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms', 'NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms', 'ntuser.ini', 'OneDrive', 'Pictures', 'PrintHood', 'Recent', 'Saved Games', 'Searches', 'SendTo', 'Start Menu', 'Templates', 'Untitled.ipynb', 'Videos']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(os.listdir())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "dbcdd237-dce6-49e0-adc3-b533bdb48e30",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "os.chdir('C:\\\\')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "5237e1e1-7e40-4291-a366-6db3621c440b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "C:\\\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(os.getcwd())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "588922dd-b282-469b-9dd6-5d7efafb97c6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "os.mkdir('Hello')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "82b7b92a-080c-4117-9ba5-5fa6274f56fa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "os.rmdir('Hello')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5e78cdf4-1887-41b5-b83f-781520d11c4c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
